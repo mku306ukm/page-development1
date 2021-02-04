@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .bg-image{    
         background-image: url(2.jpg);
         background-size: cover;
@@ -61,11 +64,17 @@
 }
 
 
-.body {
+body {
     text-align: center;
-    margin: 0;
+    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 17px;
     color: #926239;
     line-height: 1.6;
+    
+  
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
